@@ -27,8 +27,7 @@ public class LibraryImpl implements LibraryService {
             if(l.getId()==id){
                 l.setAddress(library.getAddress());
                 l.setName(library.getName());
-                l.setBooks(library.getBooks());
-                l.setReader(library.getReader());
+
             }
         }
 
